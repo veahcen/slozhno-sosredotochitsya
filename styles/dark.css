@@ -11,7 +11,7 @@
   --main-font-family: 'IBM Plex Mono';
   --bold-family: 700;
     color: var(--main-color, #F1B2CE);
-    background-color: var(--main-background-color ,#000028);  
+    background-color: var(--main-background-color ,#000028);
 }
 
 .page.theme_dark {
@@ -19,6 +19,8 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background: url('../images/cover-image-dark.png') center center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 

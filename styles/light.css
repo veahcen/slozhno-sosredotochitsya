@@ -13,13 +13,13 @@
   background-attachment: fixed;
 }
 
-:root .theme_light {
+:root.theme_light {
     /* Переменные светлой темы */  
   --main-background-color: #FFF1F7;
   --main-color: #353430;
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
-  --main-font-family: 'IBM Plex Mono'; 
+  --main-font-family: 'IBM Plex Mono';
 }
 
 /* Остальные стили */
@@ -31,8 +31,8 @@
       --main-color: #353430;
       --accent-color: #FF8DCB;
       --title-color: #FFC2E6;
-      --main-font-family: 'IBM Plex Mono';   
-      color: var(--main-color, #353430);  
+      --main-font-family: 'IBM Plex Mono';
+      color: var(--main-color, #353430);
       background-color: var(--main-background-color ,#FFF1F7);
     }
 
@@ -67,6 +67,35 @@
 
   .link-decoration:focus {
     outline: none;
-    outline: 0.5px solid var(--main-color);
   }
+
+  .link-decoration:focus {
+    outline: 1px solid var(--main-color);
+  }
+
+  .title-decor {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+  }
+
+  .header::before {
+    border-inline-end: 1px solid var(--main-color);
+    border-block-start: 1px solid var(--main-color);
+  }
+
+  .header::after {
+    border-inline-start: 1px solid var(--main-color);
+    border-block-end: 1px solid var(--main-color);
+  }
+
+  .footer::before {
+    border-inline-end: 1px solid var(--main-color);
+    border-block-start: 1px solid var(--main-color);
+  }
+
+  .footer::after {
+    border-inline-start: 1px solid var(--main-color);
+    border-block-end: 1px solid var(--main-color);
+  }
+
 }
