@@ -188,7 +188,7 @@
 .footer {
   display: grid;
   margin: 10px;
-  block-size: 644px;
+  block-size: 100vh;
 }
 
 .footer::before {
@@ -326,7 +326,7 @@
     grid-template-rows: 195px 764px;
     margin: 20px;
     margin-block-start: 80px;
-    block-size: 983px;
+    block-size: 100vh;
   }
   .footer__header {
     font-size: clamp(6.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -380,7 +380,7 @@
   }
   .footer {
     grid-template-rows: 165px 536px;
-    block-size: 728px;
+    block-size: 100vh;
   }
   .footer__header {
     margin-block-start: 82px;
