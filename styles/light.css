@@ -14,7 +14,7 @@
 }
 
 :root.theme_light {
-    /* Переменные светлой темы */  
+  /* Переменные светлой темы */  
   --main-background-color: #FFF1F7;
   --main-color: #353430;
   --accent-color: #FF8DCB;
@@ -35,6 +35,11 @@
       color: var(--main-color, #353430);
       background-color: var(--main-background-color ,#FFF1F7);
     }
+    
+  .page {
+    background: url('../images/cover-image-light.png') center center/cover no-repeat;
+    background-attachment: fixed;
+  }  
 
   .header__rec {
     display: none;
@@ -65,7 +70,7 @@
     border-block-end: 1px solid var(--main-color);
   }
 
-  .link-decoration:focus {
+  .link-decoration:focus-visible {
     outline: none;
   }
 

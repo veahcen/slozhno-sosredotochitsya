@@ -242,7 +242,7 @@
   border-block-end: 1px solid var(--main-color);
 }
 
-.link-decoration:focus {
+.link-decoration:focus-visible {
   outline: none;
 }
 
@@ -380,7 +380,7 @@
   }
   .footer {
     grid-template-rows: 165px 536px;
-    block-size: 731px;
+    block-size: 728px;
   }
   .footer__header {
     margin-block-start: 82px;
