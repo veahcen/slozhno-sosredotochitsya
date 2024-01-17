@@ -14,7 +14,7 @@
 }
 
 :root.theme_light {
-  /* Переменные светлой темы */  
+  /* Переменные светлой темы */
   --main-background-color: #FFF1F7;
   --main-color: #353430;
   --accent-color: #FF8DCB;
