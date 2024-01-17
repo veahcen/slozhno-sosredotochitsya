@@ -13,7 +13,7 @@
   background-attachment: fixed;
 }
 
-:root.theme_light {
+:root {
   /* Переменные светлой темы */  
   --main-background-color: #FFF1F7;
   --main-color: #353430;
@@ -35,7 +35,7 @@
       color: var(--main-color, #353430);
       background-color: var(--main-background-color ,#FFF1F7);
     }
-    
+
   .page {
     background: url('../images/cover-image-light.png') center center/cover no-repeat;
     background-attachment: fixed;
