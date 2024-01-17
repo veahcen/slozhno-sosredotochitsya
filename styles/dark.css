@@ -3,6 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root {
+  --main-background-color: #000028;
+  --main-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --title-color: #DB00FF;
+  --main-font-family: 'IBM Plex Mono';
+  --bold-family: 700;
+    color: var(--main-color, #F1B2CE);
+    background-color: var(--main-background-color ,#000028);  
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -10,3 +20,5 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+
