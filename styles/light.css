@@ -39,7 +39,8 @@
     --check-block: none;
   } 
 
-  body {
+
+  .page {
     background: url('../images/cover-image-light.png') center center/cover no-repeat;
   }
   
