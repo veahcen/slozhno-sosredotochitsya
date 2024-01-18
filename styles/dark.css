@@ -7,11 +7,10 @@
   --main-background-color: #000028;
   --main-color: #F1B2CE;
   --accent-color: #ff0070;
+  --accent-color-text: #ff0070;
   --title-color: #DB00FF;
   --main-font-family: 'IBM Plex Mono';
-  --bold-family: 700;
-    color: var(--main-color, #F1B2CE);
-    background-color: var(--main-background-color ,#000028);
+  --check-block: flex;
 }
 
 .page.theme_dark {
@@ -19,6 +18,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  color: var(--main-color, #F1B2CE);
   background: url('../images/cover-image-dark.png') center center/cover no-repeat;
   background-attachment: fixed;
 }
