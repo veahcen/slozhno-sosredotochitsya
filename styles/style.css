@@ -13,9 +13,10 @@
   --check-block: flex;
   --phone-tablet-font-size-header-footer: clamp(6.25rem, 113px + 1.0178vw, 7.5rem);
   --tablet-laptop-font-size-header-footer: clamp(6.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  
 }
 
-body {
+html {
   background-color: var( --main-background-color);
 }
 
