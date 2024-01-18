@@ -38,6 +38,10 @@
     --main-font-family: 'IBM Plex Mono';
     --check-block: none;
   } 
+
+  body {
+    background-color: #FFF1F7;
+  }
   
   .header-decoration {
     color: var(--main-color);
