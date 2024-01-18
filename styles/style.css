@@ -416,10 +416,11 @@ html {
     grid-template-rows: 260px 315px 433px;
   }
   .footer {
+    margin-block-start: 40px;
     min-height: 728px;
-    grid-template-rows: 26px minmax(638px, auto) 25px;
+    grid-template-rows: minmax(106px, auto) minmax(638px, auto) 25px;
   }
   .footer__header {
-    margin-block-start: -39px;
+    margin-block-start: -78px;
   }
 }

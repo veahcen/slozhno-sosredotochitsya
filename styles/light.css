@@ -42,6 +42,7 @@
 
   .page {
     background: url('../images/cover-image-light.png') center center/cover no-repeat;
+    background-attachment: fixed;
   }
   
   .header-decoration {
