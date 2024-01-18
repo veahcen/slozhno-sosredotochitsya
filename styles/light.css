@@ -12,6 +12,7 @@
   --title-color: #FFC2E6;
   --main-font-family: 'IBM Plex Mono';
   --check-block: none;
+  background-color: #FFF1F7;
 }
 
 .page.theme_light {
@@ -38,10 +39,6 @@
     --main-font-family: 'IBM Plex Mono';
     --check-block: none;
   } 
-
-  body {
-    background-color: #FFF1F7;
-  }
   
   .header-decoration {
     color: var(--main-color);
