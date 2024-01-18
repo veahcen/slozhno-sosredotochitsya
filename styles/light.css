@@ -5,14 +5,13 @@
 */
 :root .theme_light {
   /* Переменные светлой темы */
-  --main-background-color: #353430;
+  --main-background-color: #FFF1F7;
   --main-color: #353430;
   --accent-color: #FF8DCB;
   --accent-color-text: #353430;
   --title-color: #FFC2E6;
   --main-font-family: 'IBM Plex Mono';
   --check-block: none;
-  background-color: #FFF1F7;
 }
 
 .page.theme_light {
@@ -31,7 +30,7 @@
 @media (prefers-color-scheme: light) {
   :root {
       /* Дублируем переменные светлой темы */
-    --main-background-color: #353430;
+    --main-background-color: #FFF1F7;
     --main-color: #353430;
     --accent-color: #FF8DCB;
     --accent-color-text: #353430;
