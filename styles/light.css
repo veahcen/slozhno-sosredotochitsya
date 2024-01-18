@@ -29,7 +29,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-      /* Дублируем переменные светлой темы */
+    /* Дублируем переменные светлой темы */
     --main-background-color: #FFF1F7;
     --main-color: #353430;
     --accent-color: #FF8DCB;
@@ -38,6 +38,10 @@
     --main-font-family: 'IBM Plex Mono';
     --check-block: none;
   } 
+
+  body {
+    background: url('../images/cover-image-light.png') center center/cover no-repeat;
+  }
   
   .header-decoration {
     color: var(--main-color);

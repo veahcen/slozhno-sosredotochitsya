@@ -11,6 +11,9 @@
   --title-color: #DB00FF;
   --main-font-family: 'IBM Plex Mono';
   --check-block: flex;
+}
+
+body {
   background-color: var( --main-background-color);
 }
 
