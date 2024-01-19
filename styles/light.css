@@ -41,6 +41,9 @@
     --outline-color: rgba(50, 49, 45, 0.40);
     --main-font-family: 'IBM Plex Mono';
     --check-block: none;
-  } 
+  }
 
+  .page {
+    background: var(--main-background-color) url('../images/cover-image-light.png') center center/cover no-repeat;
+  }
 }
