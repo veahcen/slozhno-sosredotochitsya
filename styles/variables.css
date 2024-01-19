@@ -8,12 +8,14 @@
   --accent-color: #ff0070;
   --accent-color-text: #ff0070;
   --title-color: #DB00FF;
+  --subtitle-color: #000028;
   --main-font-family: 'IBM Plex Mono';
   --bold-family: 700;
   --main-font-size: 18px;
   --main-font-weight: 400;
   --main-line-height: 18px;
   --check-block: flex;
+  --outline-color: rgba(255, 0, 112, 0.40);
   --phone-tablet-font-size-header-footer: clamp(6.25rem, 113px + 1.0178vw, 7.5rem);
   --tablet-laptop-font-size-header-footer: clamp(6.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

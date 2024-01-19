@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root {
+:root .theme-dark {
   --main-background-color: #000028;
   --main-color: #F1B2CE;
   --accent-color: #ff0070;
@@ -13,9 +13,7 @@
   --check-block: flex;
 }
 
-html {
-  background-color: var( --main-background-color);
-}
+
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -23,7 +21,7 @@ html {
     чем стили в медиазапросе предпочтений пользователя
   */
   color: var(--main-color, #F1B2CE);
-  background: url('../images/cover-image-dark.png') center center/cover no-repeat;
+  background: var(--main-background-color) url('../images/cover-image-dark.png') center center/cover no-repeat;
   background-attachment: fixed;
 }
 

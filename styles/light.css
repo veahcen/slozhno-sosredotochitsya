@@ -10,6 +10,8 @@
   --accent-color: #FF8DCB;
   --accent-color-text: #353430;
   --title-color: #FFC2E6;
+  --subtitle-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.40);
   --main-font-family: 'IBM Plex Mono';
   --check-block: none;
 }
@@ -20,7 +22,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   color: var(--main-color, #353430);
-  background: url('../images/cover-image-light.png') center center/cover no-repeat;
+  background: var(--main-background-color) url('../images/cover-image-light.png') center center/cover no-repeat;
   background-attachment: fixed;
 }
 
@@ -35,80 +37,10 @@
     --accent-color: #FF8DCB;
     --accent-color-text: #353430;
     --title-color: #FFC2E6;
+    --subtitle-color: #353430;
+    --outline-color: rgba(50, 49, 45, 0.40);
     --main-font-family: 'IBM Plex Mono';
     --check-block: none;
   } 
-
-
-  .page {
-    background: url('../images/cover-image-light.png') center center/cover no-repeat;
-    background-attachment: fixed;
-  }
-  
-  .header-decoration {
-    color: var(--main-color);
-  }
-
-  .header__rec {
-    display: none;
-  }  
-
-  .header__theme-menu-button {
-    color: var(--main-color);
-  } 
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgba(50, 49, 45, 0.40);
-    outline-offset: 1px;
-    transition: all 0.5s;
-  }
-
-  .header__theme-menu-button:focus {
-    border-block-end: 1px solid var(--main-color);
-    outline: none;
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--main-color);
-    outline-offset: 1px;
-    pointer-events: none;
-  }
-
-  .link-decoration:hover {
-    border-block-end: 1px solid var(--main-color);
-  }
-
-  .link-decoration:focus-visible {
-    outline: none;
-  }
-
-  .link-decoration:focus {
-    outline: 1px solid var(--main-color);
-  }
-
-  .title-decor {
-    color: var(--main-color);
-    background-color: var(--accent-color);
-  }
-
-  .header::before {
-    border-inline-end: 1px solid var(--main-color);
-    border-block-start: 1px solid var(--main-color);
-  }
-
-  .header::after {
-    border-inline-start: 1px solid var(--main-color);
-    border-block-end: 1px solid var(--main-color);
-  }
-
-  .footer::before {
-    border-inline-end: 1px solid var(--main-color);
-    border-block-start: 1px solid var(--main-color);
-  }
-
-  .footer::after {
-    border-inline-start: 1px solid var(--main-color);
-    border-block-end: 1px solid var(--main-color);
-  }
 
 }
