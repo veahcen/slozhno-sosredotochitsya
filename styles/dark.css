@@ -3,12 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
+
 :root .theme-dark {
   --main-background-color: #000028;
   --main-color: #F1B2CE;
   --accent-color: #ff0070;
   --accent-color-text: #ff0070;
   --title-color: #DB00FF;
+  --subtitle-color: #000028;
+  --outline-color: rgba(255, 0, 112, 0.40);
   --main-font-family: 'IBM Plex Mono';
   --check-block: flex;
 }
@@ -20,9 +24,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-background-color: #000028;
+  --main-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --accent-color-text: #ff0070;
+  --title-color: #DB00FF;
+  --subtitle-color: #000028;
+  --outline-color: rgba(255, 0, 112, 0.40);
+  --main-font-family: 'IBM Plex Mono';
+  --check-block: flex;
   color: var(--main-color, #F1B2CE);
   background: var(--main-background-color) url('../images/cover-image-dark.png') center center/cover no-repeat;
   background-attachment: fixed;
 }
-
-
