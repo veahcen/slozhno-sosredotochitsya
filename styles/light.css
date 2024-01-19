@@ -45,5 +45,6 @@
 
   .page {
     background: var(--main-background-color) url('../images/cover-image-light.png') center center/cover no-repeat;
+    background-attachment: fixed;
   }
 }
