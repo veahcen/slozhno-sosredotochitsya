@@ -260,7 +260,7 @@
   outline: 1px solid var(--main-color);
 }
 
-@media (width >= 570px) and (width < 768px) {
+@media (width >= 390px) and (width < 768px) {
   .header__title {
     align-self: center;
   }
